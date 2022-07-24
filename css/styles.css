@@ -4,7 +4,9 @@ body {
     width: max;
     justify-content: center;
     align-items: center;
-    background-color:gray;
+    background: rgb(124, 121, 168);
+    background: linear-gradient(90deg, rgba(124, 121, 168, 1) 10%, rgba(155, 11, 159, 1) 50%, rgba(96, 204, 226, 1) 90%);
+    overflow-y: hidden
 }
 
 ul {
@@ -64,18 +66,22 @@ ul li:hover span:nth-child(1) {
     opacity: 2;
 }
 
-ul li:nth-child(1) span{
+ul li:nth-child(1) span {
     background: #4267b2;
 }
-ul li:nth-child(2) span{
+
+ul li:nth-child(2) span {
     background: #1DA1F2;
 }
-ul li:nth-child(3) span{
+
+ul li:nth-child(3) span {
     background: #25d366;
 }
-ul li:nth-child(4) span{
+
+ul li:nth-child(4) span {
     background: #333;
 }
-ul li:nth-child(5) span{
+
+ul li:nth-child(5) span {
     background: #E1306C;
 }
